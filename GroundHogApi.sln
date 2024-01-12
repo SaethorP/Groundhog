@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroundHogApi", "GroundHogApi\GroundHogApi.csproj", "{2433B230-73F7-4579-81F5-9542D8A081F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2433B230-73F7-4579-81F5-9542D8A081F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2433B230-73F7-4579-81F5-9542D8A081F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2433B230-73F7-4579-81F5-9542D8A081F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2433B230-73F7-4579-81F5-9542D8A081F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B761FBB-6D52-4933-B4A4-CF3263E6C90E}
+	EndGlobalSection
+EndGlobal

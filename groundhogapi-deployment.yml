@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: groundhogapi-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: groundhogapi
+  template:
+    metadata:
+      labels:
+        app: groundhogapi
+    spec:
+      containers:
+      - name: groundhogapi
+        image: groundhogapi:dev # Replace with your GroundHogApi image
+        ports:
+        - containerPort: 80 # Replace with the port your API runs on
+        env:
+        - name: REDIS_HOST
+          value: "localhost" # Since Redis is a sidecar, it's on localhost
+        - name: REDIS_PORT
+          value: "6379"
+      - name: redis
+        image: redis
+        ports:
+        - containerPort: 6379
